@@ -677,6 +677,8 @@ h1 span {
 }
 
 .message-form textarea {
+    width: 100%;
+    height: 186px;
     font-family: var(--font-family);
     border: 1px solid var(--black-color);
     border-radius: 30px;
@@ -686,20 +688,16 @@ h1 span {
     resize: none;
 }
 
-textarea[name="message-text"]  {
+/* textarea[name="message-text"]  {
     width: 100%;
     height: 334px; 
-}
+} */
 
 /* Страница ввода сообщения (с выбором категории) */
 .select-wrapper {
     position: relative;
     width: 100%;
     margin-bottom: 48px;
-}
-
-.select-wrapper--width {
-    width: 600px;
 }
 
 .select {
@@ -743,10 +741,10 @@ select option:disabled {
     background-position: center;
 }
 
-textarea[name="message-text-1"]  {
+/* textarea[name="message-text-1"]  {
     width: 100%;
     height: 186px;
-}
+} */
 
 /* Страница Предпросмотр перевода */
 .preview {
@@ -871,9 +869,12 @@ textarea[name="message-text-1"]  {
 }
 
 /* Стилизация для активной кнопки */
-.selection__toggle-container input[type="radio"]:checked + .selection__toggle-button {
+/* .selection__toggle-container input[type="radio"]:hover + .selection__toggle-button {
     background-color: var(--secondary-dark);
-}
+} */
+/* .selection__toggle-container input[type="radio"]:checked + .selection__toggle-button {
+    background-color: var(--secondary-dark);
+} */
 /* Переключатель "Безопасность/Поведение/ЧС" Конец */
 
 /* Слайдер Выбор фразы Начало */
